@@ -1,8 +1,70 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+
+* {
+    border: 0px;
     padding: 0px;
     margin: 0px;
+    font-family: 'Dongle', sans-serif;
+}
+
+li {
+    list-style-type: none;
 }
 
 .header {
-    display: flex
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 1000;
+    background-color: #1f2937;
+    margin-right: 16px;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    align-items: center;
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0 128px;
+}
+
+.hero-main {
+    background-color: #1f2937;
+    display: flex;
+}
+
+.hero-main-text-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.hero-main-text-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-main-text-button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 2px 16px;
+    border-radius: 4px;
+    
+}
+
+.hero-main-text-button:hover {
+    background-color: #6ca1f7;
 }
