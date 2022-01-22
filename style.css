@@ -107,7 +107,9 @@ li {
 }
 
 .info-list > li {
-    width: 128px;
+    max-width: 128px;
+    height: auto;
+    margin: 16px
 }
 
 .info-list-image {
